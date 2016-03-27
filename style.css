@@ -1,6 +1,8 @@
 body {
 	background: #f9e933;
 	font-family: 'Droid Sans', sans-serif;
+	font-size: 100%;
+
 	
 }
 
@@ -23,11 +25,17 @@ header .container, main .container, footer .container {
 header {
 	background: white;
 	overflow: auto;
+	padding: 40px;
+
 }
 
 header h1 {
 	float: left;
 	width: 570px;
+	font-size: 3.0em;
+	color: #C32148;
+	font-style: italic;
+
 }
 
 header nav {
@@ -43,7 +51,8 @@ main {
 
 .sitemap {
 	float: right;
-	width: 285px;
+	width: 180px;
+	/*margin: auto;*/
 }
 
 .contact {
@@ -56,8 +65,54 @@ main img {
 }
 
 .subcontainer {
-	/*float: left;*/
+	float: left;
 	width: 570px;
 }
 
+main h2 {
+	font-size: xx-Large;
+}
 
+main h3 {
+	font-size: x-Large;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+h5 {
+	font-size: x-Large;
+	padding: 20px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.red {
+	color: #C32148;
+}
+
+
+.left {
+	float: left;
+	padding: 50;
+	
+}
+
+.right {
+	float: right;
+	
+	
+
+}
+
+a {
+	text-decoration: none;
+	color: #C32148;
+}
+
+a:hover {
+	text-decoration: underline;
+}
